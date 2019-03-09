@@ -8,6 +8,7 @@ import {AlertifyService} from './_services/alertify.service';
 import {BsDatepickerModule, BsDropdownModule, TabsModule} from 'ngx-bootstrap';
 import {NgxGalleryModule} from 'ngx-gallery';
 import {FileUploadModule} from 'ng2-file-upload';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 import {ErrorInterceptorProvider} from './_services/error.interceptor';
 import {AppRoutingModule} from './app-routing.module';
@@ -48,6 +49,7 @@ export function tokenGetter() {
     MemberCardComponent,
     MemberDetailComponent,
     MemberEditComponent,
+    TimeAgoPipe,
     PhotoEditorComponent
   ],
   imports: [
